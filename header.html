@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>education</title>
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+        
+        <script>
+
+            $(document).ready(function(){
+                $('#icon').click(function(){
+                    $('ul').toggleClass('show');
+                });
+            });
+        </script>
+
+    </head>
+   
+    <body>
+        <header>
+            <nav>
+                <label class="logo">Education</label>
+                <ul>
+                    <li><a class="active" href="#home">home</a></li>
+                    <li><a href="#course">courses</a></li>
+                    <li><a href="#service">services</a></li>
+                    <li><a href="#testimonial">testimonials</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+                <label id="icon">
+                    <i class="fas fa-bars"></i>
+                </label>
+            </nav>
+        </header>
+		
+		
+
+
+        <!-- <script>
+            const body = document.body;
+            let lastScroll = 0;
+
+            window.addEventListener('scroll',() => {
+                const currentScroll = window.pageYOffset
+
+                if (currentScroll <= 0) {
+                    body.classList.remove('scroll-up')
+                }
+
+                lastScroll = currentScroll;
+            })
+        </script> -->
+                
+    </body>
+</html>
